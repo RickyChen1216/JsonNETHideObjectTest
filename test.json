@@ -1,0 +1,54 @@
+{
+  "Objects": [
+    {
+      "Class": "A",
+      "Name": "image1",
+      "Layers": [
+        {
+          "DrawMode": 0,
+          "Shape": {
+            "$type": "JsonNETHideObjectTest.MCircle, JsonNETHideObjectTest",
+            "Center": "667.126739375705,127.059044753667",
+            "RadiusX": 86.377240728513485,
+            "RadiusY": 86.377240728513485
+          }
+        },
+        {
+          "DrawMode": 0,
+          "Shape": {
+            "$type": "JsonNETHideObjectTest.MPolygon, JsonNETHideObjectTest",
+            "Point0": "1243.0011282437,308.048138397894",
+            "Points": [
+              "976.453553967657,452.839413313276",
+              "1479.93230537796,847.724708537044",
+              "1664.21210981572,535.107183151561"
+            ]
+          }
+        },
+        {
+          "DrawMode": 1,
+          "Shape": {
+            "$type": "JsonNETHideObjectTest.MRectangle, JsonNETHideObjectTest",
+            "P0": "565.114704776231,725.968409176382",
+            "P1": "960,1068.20233170365"
+          }
+        }
+      ]
+    },
+    {
+      "Class": "A",
+      "Name": "image2",
+      "Layers": [
+        {
+          "DrawMode": 0,
+          "Shape": {
+            "$type": "JsonNETHideObjectTest.MCircle, JsonNETHideObjectTest",
+            "Center": "226.171493042497,502.200075216247",
+            "RadiusX": 146.94414717221008,
+            "RadiusY": 146.94414717221008
+          }
+        }
+      ]
+    }
+  ]
+}
