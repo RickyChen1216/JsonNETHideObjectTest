@@ -23,7 +23,7 @@ namespace JsonNETHideObjectTest
         internal static JsonSerializerSettings JsonSettings(IReferenceResolver resolver)
         {
             var settings = JsonSettings();
-            //settings.ReferenceResolverProvider = () => resolver;
+            settings.ReferenceResolverProvider = () => resolver;
             //settings.ContractResolver = new DynamicContractResolver();
             return settings;
         }
