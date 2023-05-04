@@ -72,6 +72,7 @@ namespace JsonNETHideObjectTest
             {
                 vm.Layers.Where(o => o?.Shape == null).ToList().ForEach(o => vm.Layers.Remove(o));
             }
+            annotationViewModel.Objects.Where(o => o.Layers.Count() < 1).ToList().ForEach(o => annotationViewModel.Objects.Remove(o));
             return annotationViewModel;
         }
     }
