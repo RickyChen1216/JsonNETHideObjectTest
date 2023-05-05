@@ -16,8 +16,7 @@ namespace JsonNETHideObjectTest
             try
             {
                 var vm = AnnotationViewModel.ReadJsonFile("..\\..\\..\\test.json", new Resolver());
-                MessageBox.Show(JsonConvert.SerializeObject(vm, Formatting.Indented));
-
+                MessageBox.Show(JsonConvert.SerializeObject(vm, AnnotationViewModel.JsonSettings()));
             }
             catch (Exception ex)
             {
