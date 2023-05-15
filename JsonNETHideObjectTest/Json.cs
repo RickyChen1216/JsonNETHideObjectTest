@@ -37,9 +37,11 @@ namespace JsonNETHideObjectTest
                 vm.Layers = new ObservableCollection<LayerViewModel>(
                     vm.Layers.Where(o => !(o?.Shape is MCircle)));
             }
+
             annotationViewModel.Objects =
                 new ObservableCollection<AnnotationObjectViewModel>(
                     annotationViewModel.Objects.Where(o => o.Layers.Any()));
+          
             return annotationViewModel;
         }
     }
